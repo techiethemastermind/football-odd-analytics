@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2&display=swap');
+
+.App {
+  max-width: 1200px;
+  margin: auto;
+  padding-top: 30px;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.chartWrap {
+  float: left;
+  width: 600px;
+}
+.chartWrap svg {
+  border-radius: 15px;
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 50%);
+}
+svg text {
+  cursor: default;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+svg .text-area text {
+  font-family: "Baloo Tammudu 2";
+}
+.chartWrap .auto-populate {
+  position: relative;
+  text-align: left;
+}
+.chartWrap .auto-populate .pannel {
+  margin-top: 15px;
+  box-shadow: 3px 3px 10px 0px rgb(0 0 0 / 50%);
+  border-radius: 5px;
+}
+.chartWrap .auto-populate .pannel .header {
+  border-radius: 5px 5px 0 0;
+}
+.chartWrap .auto-populate .pannel .body {
+  border-radius: 0 0 5px 5px;
+}
+
+.mapWrap {
+  max-width: 400px;
+  float: left;
+}
+.h3 {
+  font-size: 22px;
+  line-height: 40px;
+  margin-left: 15px;
+}
+.button {
+  cursor: pointer;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+tspan {
+  font-size: 14px;
+  text-transform: uppercase;
+}
